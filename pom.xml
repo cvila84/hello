@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://maven.apache.org/POM/4.0.0"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <prerequisites>
+        <maven>3.3.9</maven>
+    </prerequisites>
+
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.gemalto.telecom.ota</groupId>
+    <artifactId>hello</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0.0-SNAPSHOT</version>
+    <name>Hello</name>
+    <description>Hello is a project template for micro-services based on TomEE</description>
+
+    <modules>
+        <module>greet</module>
+        <module>person</module>
+    </modules>
+
+</project>
